@@ -72,8 +72,10 @@ function draw() {
    
      particles[j].display();
    }
-   for (var k = 0; k < divisions.length; k++) {
-     
+   
+   for (var k = 0; k < divisions.length; k++){
+
      divisions[k].display();
-   }
-}
+
+ }
+  }
